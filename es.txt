@@ -1,0 +1,38 @@
+Modellizzare la struttura di una tabella per memorizzare tutti i dati 
+riguardanti delle auto usate messe in vendita da un concessionario.
+
+Cars:
+
+num VIN:                 
+marca:  
+tipo di veicolo:             
+modello:
+versione:
+allestimento:
+anno di produzione:            
+colore:             
+alimentazione/combustibile:      
+prima immatricolazione: 
+num proprietari: 
+kms:
+peso: 
+altezza: 
+lunghezza:
+larghezza:
+trazione:
+cilindrata:
+cV:
+kW:
+cilindri:
+cambio:
+marce: 
+categoria euro:
+num posti:
+num porte:
+incidentata: 
+consumi: 
+percentuale gomme:
+condizioni vernice:
+condizioni interni:
+optional:
+prezzo:
