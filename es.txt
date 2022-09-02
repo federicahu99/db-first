@@ -3,36 +3,36 @@ riguardanti delle auto usate messe in vendita da un concessionario.
 
 Cars:
 
-num VIN:                 
-marca:  
-tipo di veicolo:             
-modello:
-versione:
-allestimento:
-anno di produzione:            
-colore:             
-alimentazione/combustibile:      
-prima immatricolazione: 
-num proprietari: 
-kms:
-peso: 
-altezza: 
-lunghezza:
-larghezza:
-trazione:
-cilindrata:
-cV:
-kW:
-cilindri:
-cambio:
-marce: 
-categoria euro:
-num posti:
-num porte:
-incidentata: 
-consumi: 
-percentuale gomme:
-condizioni vernice:
-condizioni interni:
-optional:
-prezzo:
+num VIN:                        varchar(17) - notnull, unique - PRIMARYKEY           
+marca:                          varchar(30) - notnull
+tipo di veicolo:                varchar(30) - notnull
+modello:                        varchar(30) - notnull
+versione:                       varchar(70) - null
+allestimento:                   varchar(30) - null
+anno di produzione:             year - notnull    
+colore:                         varchar(20) - notnull
+alimentazione/combustibile:     varchar(30) - notnull
+prima immatricolazione:         date - notnull
+num proprietari:                tinyint - notnull
+kms:                            smallint - notnull
+peso:                           tinyint- notnull
+altezza:                        float(5,2) - notnull
+lunghezza:                      float(5,2) - notnull
+larghezza:                      float(5,2) - notnull
+trazione:                       tinyint - notnull
+cilindrata:                     tinyint - notnull
+cV:                             float(5,2) - notnull     
+kW:                             float(5,2) - notnull
+cilindri:                       tinyint - notnull
+cambio:                         tinyint - notnull default
+marce:                          tinyint - notnull default
+categoria euro:                 tinyint - notnull
+num posti:                      tinyint - notnull default    
+num porte:                      tinyint - notnull default
+incidentata:                    tinyint - notnull default
+consumi:                        float(5,2) - notnull
+percentuale gomme:              tinyint - notnull
+condizioni vernice:             tinyint - notnull
+condizioni interni:             tinyint - notnull
+optional:                       text- null
+prezzo:                         float(7,2) - notnull
